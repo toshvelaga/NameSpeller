@@ -1,8 +1,44 @@
+@font-face {
+    font-family: 'Bauhaus';
+    src: url('fonts/bauhaus-93/Bauhaus 93 Regular.ttf');
+  }
+
+body {
+    margin: 0;
+}
+
 .NameSpeller {
     width: 350px;
-    height: 320px;
+    height: 350px;
+    top: 0;
 }
 
 header {
     background-color: #0fb933b9;
+    padding: 0;
+    margin: auto;
+    height: 15%;
+    text-align: center;
+    font-family: 'Bauhaus';
+    font-size: 2rem;
+    color: white;
+}
+
+.NameSpeller > p, ul {
+    color: #666666ff;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+p {
+    margin-left: 25px;
+    margin-right: 25px;
+} 
+
+footer {
+    color: #666666ff;
+    font-size: .5rem;
+    text-align: center;
+    bottom: 5px;
+    padding-bottom: 10px;
 }
