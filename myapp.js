@@ -10,7 +10,7 @@
                 var words = sentence.split(/,| |\n/);
                 
                 if ((words[0] === 'Hi' || words[0] === 'Hello' || words[0] === 'Hey') && words[1] !== firstName) {
-                    var r = confirm(`It seems like you might be spelling the recipients first name wrong. It looks like the name is ${firstName} but you wrote ${words[1]}. Send anyway?`);
+                    var r = confirm(`It seems like you might be spelling the recipient's first name wrong. It looks like the name is ${firstName} but you wrote ${words[1]}. Send anyway?`);
                     if (r == false) {
                         event.cancel();
                     }
