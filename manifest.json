@@ -19,7 +19,7 @@
       "default_title": "Open the popup"
     },
     "icons": {
-      "16": "letterS.png"
+      
     },
     "permissions": [
       "storage",
