@@ -3,6 +3,11 @@
     src: url('fonts/bauhaus-93/Bauhaus 93 Regular.ttf');
   }
 
+@font-face {
+font-family: 'Trebuchet';
+src: url('fonts/trebuchet/trebuc.ttf');
+}
+
 body {
     margin: 0;
 }
@@ -24,10 +29,20 @@ header {
     color: white;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
 .NameSpeller > p, ul {
     color: #666666ff;
     font-size: .9rem;
     line-height: 1.5;
+    font-family: 'Trebuchet';
 }
 
 p {
@@ -37,8 +52,9 @@ p {
 
 footer {
     color: #666666ff;
-    font-size: .5rem;
+    font-size: .6rem;
     text-align: center;
     bottom: 5px;
     padding-bottom: 10px;
+    font-family: 'Trebuchet';
 }
